@@ -2,12 +2,12 @@
 Regular expressions are patterns used to match character combinations in strings or text. In JavaScript, regular expressions are also objects.
 <br><br>
 
-#### @ - Regex uses
+### @ - Regex uses
 1. Validate user input
 2. Search inside text
 <br><br>
 
-#### @ - Regex methods
+### @ - Regex methods
 > * `exec()` &nbsp;-&nbsp; Executes a **search for a match in a string**. It returns an **array of information or null** on a mismatch.
 > * `test()` &nbsp;-&nbsp; Tests for a **match in a string**. It returns **true** or **false**.
 > * `match()` &nbsp;-&nbsp; Returns an **array containing all of the matches**, including capturing groups, or **null if no match** is found.
@@ -16,11 +16,11 @@ Regular expressions are patterns used to match character combinations in strings
 > * `replace()` &nbsp;-&nbsp; Executes a search for a match in a string, and replaces the matched substring with a replacement substring.
 > * `matchAll()` &nbsp;-&nbsp; Returns an **iterator containing all of the matches**, including capturing groups.
 > * `replaceAll()` &nbsp;-&nbsp; Executes a **search for all matches in a string**, and replaces the matched **substrings with a replacement substring**.
+
 <br><br>
 
-#### @ - Advanced searching with flags
+### @ - Advanced searching with flags
 Regular expressions have six optional flags that allow for functionality like global and case insensitive searching.
-
 
 * `d` - Generate indices for substring matches. <br>
 ```javascript
